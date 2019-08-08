@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  padding-top: 40px;
+}
+
+.margin-center {
+  margin: 0 auto;
+}
+
+.calendar-grid-border {
+  border-left: 1px solid #e2e8f0;
+  border-top: 1px solid #e2e8f0;
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
